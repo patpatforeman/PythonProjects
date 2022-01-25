@@ -1,5 +1,13 @@
-investment = 6000
-final_invest = investment * 40 
-interest = investment * (((1 + 0.07)**40)-1)
+investment = 6000 # Initial Investment
+final_invest = investment * 40 # Final Amount Invested
+rate = 0.07 # Interest rate in Decimal Form
+invest_time = 40 # Years of Investment
+
+# Calculate Interest Accumulated, then add to Final Investment Total
+interest = investment * (((1 + rate)**invest_time)-1)
 total_amt = final_invest + interest
-print(int(total_amt))
+
+# Print out results
+print('Your investment add up to $' + str(final_invest) + ' without interest')
+print('The total interest earned on your investment is $' + str(int(interest)))
+print('The final amount that your investment receives is $' + str(int(total_amt)))
