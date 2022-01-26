@@ -8,6 +8,6 @@ interest = investment * (((1 + rate)**invest_time)-1)
 total_amt = final_invest + interest
 
 # Print out results
-print('Your investment add up to $' + str(final_invest) + ' without interest')
+print('Your investment adds up to $' + str(final_invest) + ' without interest')
 print('The total interest earned on your investment is $' + str(int(interest)))
-print('The final amount that your investment receives is $' + str(int(total_amt)))
+print('The final amount that your investment comes to is $' + str(int(total_amt)))
