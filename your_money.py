@@ -4,7 +4,7 @@ rate = 0.07 # Interest rate in Decimal Form
 invest_time = 40 # Years of Investment
 
 # Calculate Interest Accumulated, then add to Final Investment Total
-interest = investment * (((1 + rate)**invest_time)-1)
+interest = investment * (((1 + rate)**invest_time))
 total_amt = final_invest + interest
 
 # Print out results
